@@ -27,7 +27,8 @@ async function main(){
 
 
 app.get("/",(req,res)=>{
-    res.send("Hi, i am root");
+    // res.send("Hi, i am root");
+    res.redirect("listings");
 });
 
 //Index Route
