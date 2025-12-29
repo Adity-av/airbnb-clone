@@ -31,7 +31,7 @@ async function main(){
 
 app.get("/",(req,res)=>{
     // res.send("Hi, i am root");
-    res.render("/listings");
+    res.redirect("/listings");
 });
 
 const validateListing=(req,res,next)=>{
